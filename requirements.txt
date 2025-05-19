@@ -1,0 +1,6 @@
+# Required packages for PyRecon
+sublist3r
+requests
+dnspython
+colorama
+python-Levenshtein
