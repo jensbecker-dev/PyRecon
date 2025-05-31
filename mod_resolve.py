@@ -5,10 +5,9 @@ import dns.resolver
 import concurrent.futures
 
 def resolve_subdomains(subdomains, threads=10, verbose=False):
-    """
-    Resolve a list of subdomains and return only those that resolve.
-    """
+    print(f"DEBUG: mod_resolve.resolve_subdomains called with subdomains: {subdomains}, type: {type(subdomains)}") # Hinzugefügte Debug-Zeile
     resolved = []
+    # ... restlicher Code
     
     def resolve_single(subdomain):
         try:
